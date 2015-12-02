@@ -1,0 +1,120 @@
+\begin{thebibliography}{10}
+
+\bibitem{adams2010tssb}
+RP~Adams, Z~Ghahramani, and MI~Jordan.
+\newblock {Tree-structured stick breaking for hierarchical data}.
+\newblock {\em Advances in Neural Information Processing Systems}, 23:19--27,
+  2010.
+
+\bibitem{Aldous1995}
+D~Aldous.
+\newblock {Probability distributions on cladograms}.
+\newblock {\em IMA Volumes in Mathematics and its Applications}, 76, 1996.
+
+\bibitem{Aparicio2013}
+S~Aparicio and C~Caldas.
+\newblock {The implications of clonal genome evolution for cancer medicine}.
+\newblock {\em New England Journal of Medicine}, 2013.
+
+\bibitem{Bedard2013}
+PL~Bedard, AR~Hansen, MJ~Ratain, and LL~Siu.
+\newblock {Tumour heterogeneity in the clinic}.
+\newblock {\em Nature}, 2013.
+
+\bibitem{Duane1987}
+S~Duane, AD~Kennedy, BJ~Pendleton, and D~Roweth.
+\newblock {Hybrid monte carlo}.
+\newblock {\em Physics letters B}, 1987.
+
+\bibitem{Green1995}
+PJ~Green.
+\newblock {Reversible jump Markov chain Monte Carlo computation and Bayesian
+  model determination}.
+\newblock {\em Biometrika}, 1995.
+
+\bibitem{Hanahan2000}
+D~Hanahan and RA~Weinberg.
+\newblock {The hallmarks of cancer}.
+\newblock {\em cell}, 2000.
+
+\bibitem{Hanahan2011}
+D~Hanahan and RA~Weinberg.
+\newblock {Hallmarks of cancer: the next generation}.
+\newblock {\em cell}, 2011.
+
+\bibitem{Jiao2014}
+W~Jiao, S~Vembu, AG~Deshwar, L~Stein, and Q~Morris.
+\newblock {Inferring clonal evolution of tumors from single nucleotide somatic
+  mutations.}
+\newblock {\em BMC bioinformatics}, 15(1):35, January 2014.
+
+\bibitem{Kingman82g}
+JFC Kingman.
+\newblock {On the genealogy of large populations}.
+\newblock {\em Journal of Applied Probability}, 19:27--43, 1982.
+
+\bibitem{neal2003dft}
+RM~Neal.
+\newblock {Density modeling and clustering using Dirichlet diffusion trees}.
+\newblock {\em Bayesian Statistics}, 7:619--629, 2003.
+
+\bibitem{Neal2003a}
+RM~Neal.
+\newblock {Slice sampling}.
+\newblock {\em Annals of statistics}, 2003.
+
+\bibitem{Pritchard2000}
+JK~Pritchard, M~Stephens, and P~Donnelly.
+\newblock {Inference of Population Structure Using Multilocus Genotype Data}.
+\newblock {\em Genetics}, 155(2):945--959, June 2000.
+
+\bibitem{Schuh2012}
+A~Schuh, J~Becq, S~Humphray, and A~Alexa.
+\newblock {Monitoring chronic lymphocytic leukemia progression by whole genome
+  sequencing reveals heterogeneous clonal evolution patterns}.
+\newblock {\em Blood}, 2012.
+
+\bibitem{Shah2012}
+Sohrab~P Shah, Andrew Roth, Rodrigo Goya, Arusha Oloumi, Gavin Ha, Yongjun
+  Zhao, Gulisa Turashvili, Jiarui Ding, Kane Tse, Gholamreza Haffari, Ali
+  Bashashati, Leah~M Prentice, Jaswinder Khattra, Angela Burleigh, Damian Yap,
+  Virginie Bernard, Andrew McPherson, Karey Shumansky, Anamaria Crisan, Ryan
+  Giuliany, Alireza Heravi-Moussavi, Jamie Rosner, Daniel Lai, Inanc Birol,
+  Richard Varhol, Angela Tam, Noreen Dhalla, Thomas Zeng, Kevin Ma, Simon~K
+  Chan, Malachi Griffith, Annie Moradian, S-W~Grace Cheng, Gregg~B Morin, Peter
+  Watson, Karen Gelmon, Stephen Chia, Suet-Feung Chin, Christina Curtis,
+  Oscar~M Rueda, Paul~D Pharoah, Sambasivarao Damaraju, John Mackey, Kelly
+  Hoon, Timothy Harkins, Vasisht Tadigotla, Mahvash Sigaroudinia, Philippe
+  Gascard, Thea Tlsty, Joseph~F Costello, Irmtraud~M Meyer, Connie~J Eaves,
+  Wyeth~W Wasserman, Steven Jones, David Huntsman, Martin Hirst, Carlos Caldas,
+  Marco~A Marra, and Samuel Aparicio.
+\newblock {The clonal and mutational evolution spectrum of primary
+  triple-negative breast cancers.}
+\newblock {\em Nature}, 486(7403):395--9, June 2012.
+
+\bibitem{steinhardt2012martingale}
+J~Steinhardt and Z~Ghahramani.
+\newblock {Flexible Martingale Priors for Deep Hierarchies}.
+\newblock In {\em International Conference on Artificial Intelligence and
+  Statistics (AISTATS)}, volume~43, pages 61--62, 2012.
+
+\bibitem{Vinh2009}
+NX~Vinh, J~Epps, and J~Bailey.
+\newblock {Information theoretic measures for clusterings comparison}.
+\newblock In {\em Proceedings of the 26th Annual International Conference on
+  Machine Learning - ICML '09}, pages 1--8, New York, New York, USA, June 2009.
+  ACM Press.
+
+\bibitem{Vinh2010}
+NX~Vinh, J~Epps, and J~Bailey.
+\newblock {Information theoretic measures for clusterings comparison: Variants,
+  properties, normalization and correction for chance}.
+\newblock {\em The Journal of Machine Learning Research}, 2010.
+
+\bibitem{Zhou2006}
+C~Zhou, T~Schulthess, S~Torbr\"{u}gge, and D~Landau.
+\newblock {Wang-Landau Algorithm for Continuous Models and Joint Density of
+  States}.
+\newblock {\em Physical Review Letters}, 96(12):120201, March 2006.
+
+\end{thebibliography}

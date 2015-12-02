@@ -1,0 +1,93 @@
+\relax 
+\citation{Pritchard2000}
+\citation{Shah2012}
+\citation{Jiao2014}
+\citation{Hanahan2000}
+\citation{Hanahan2011}
+\citation{Aparicio2013}
+\citation{Bedard2013}
+\citation{Shah2012}
+\citation{Jiao2014}
+\citation{Aldous1995}
+\newlabel{^_1}{{}{1}}
+\@writefile{toc}{\contentsline {section}{\numberline {1}Introduction}{1}}
+\@writefile{toc}{\contentsline {section}{\numberline {2}Subclonal Reconstruction}{1}}
+\newlabel{sec:likelihood}{{2}{1}}
+\citation{Jiao2014}
+\@writefile{lof}{\contentsline {figure}{\numberline {1}{\ignorespaces Variant mutation frequency histogram for an example simulated dataset. The x-axis corresponds to the population frequency for each mutation, specifically we plot $b_m/d_m$ for each mutation. There are five ground truth clones in this dataset, three of which share the low-frequency end of the histogram.}}{2}}
+\newlabel{fig:data}{{1}{2}}
+\@writefile{lof}{\contentsline {figure}{\numberline {2}{\ignorespaces Assumed process for tumor evolution (best viewed in color). The process begins with a single lineage within a reference population (green area) which acquires passenger mutations (blue diamonds) over time. Eventually, this lineage acquires a driver mutation (red-filled diamonds) that spawns a new subpopulation $A$ that begins to compete with the reference population. This occurs 2 more times, spawning from within the $A$ subpopulation to create two additional subpopulations $B$ and $C$. This particular outcome corresponds to the binary tree shown below, if right subtrees correspond to newly spawned subpopulations and the left subtrees correspond to old subpopulations. Each colored line corresponds to the path from each population at the leaves to its point of divergence from its parent population. The length of the path from the divergence point to the earliest ancestor that can be reached from a path of a single color is the time available for the population to acquire passenger mutations. The mutations associated with a population are depicted at that population's leaf.}}{2}}
+\newlabel{fig:tumor_evolution}{{2}{2}}
+\newlabel{eq:refcount}{{1}{2}}
+\citation{Pritchard2000}
+\citation{Aldous1995}
+\@writefile{toc}{\contentsline {subsection}{\numberline {{2.1}}Mutation Model}{3}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {{2.2}}Modelling Subpopulation Sizes and Read Counts}{3}}
+\@writefile{lof}{\contentsline {figure}{\numberline {3}{\ignorespaces Representative sample from the posterior for the CLL077 dataset. The width of each subpopulation at the base of the figure reflects the cellular prevalence of that subpopulation. Also shown are the unique mutations associated with each subclone. Time variables are not accurately depicted in this figure.}}{3}}
+\newlabel{fig:CLL_result}{{3}{3}}
+\newlabel{eq:obs}{{4}{3}}
+\@writefile{toc}{\contentsline {section}{\numberline {3}Beta-Splitting Trees}{3}}
+\newlabel{sec:beta_splitting}{{3}{3}}
+\citation{neal2003dft}
+\citation{Aldous1995}
+\citation{Kingman82g}
+\citation{neal2003dft}
+\citation{adams2010tssb}
+\citation{Jiao2014}
+\citation{steinhardt2012martingale}
+\newlabel{eq:nut}{{8}{4}}
+\newlabel{eq:nu_N}{{9}{4}}
+\newlabel{eq:mu_i}{{10}{4}}
+\newlabel{sec:time}{{3}{4}}
+\newlabel{eq:t_p}{{11}{4}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {{3.1}}Number of Clones}{4}}
+\@writefile{toc}{\contentsline {section}{\numberline {4}Related Work}{4}}
+\newlabel{sec:related}{{4}{4}}
+\citation{Neal2003a}
+\citation{Duane1987}
+\citation{Green1995}
+\citation{Zhou2006}
+\citation{Schuh2012}
+\citation{Schuh2012}
+\@writefile{lof}{\contentsline {figure}{\numberline {4}{\ignorespaces Aldous' Beta-splitting. \textbf  {(left)} Five points are dropped onto the unit interval, which is then recursively split according to beta-splitting. Note that splits may occur that do not separate any data. \textbf  {(right)} By marginalizing out the splits that do not separate data, we get a simplified representation for the Beta-Splitting tree using fewer explicit splitting locations. In the figure, beta-splitting failed to separate the four points $D_\epsilon $ times, resulting in an interval of length $\mathaccentV {tilde}07E{\nu }_\epsilon $. This interval is then split into two subintervals with proportions $\nu _l$ and $\nu _r$, and the process recurses on each subinterval. Note that we need not explicitly represent the locations $y$ to sample from this process, as we need only determine to which subinterval each point belongs at each split event.}}{5}}
+\newlabel{fig:aldous_betasplit}{{4}{5}}
+\@writefile{toc}{\contentsline {section}{\numberline {5}Inference}{5}}
+\newlabel{sec:inference}{{5}{5}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {{5.1}}Sampling $\nu , \mathaccentV {tilde}07E{\nu }, \upsilon $, and $z$}{5}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {{5.2}}Sampling the tree structure $\psi $}{5}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {{5.3}}Sampling $K$}{5}}
+\@writefile{toc}{\contentsline {section}{\numberline {6}Experiments}{5}}
+\newlabel{sec:experiments}{{6}{5}}
+\citation{Jiao2014}
+\citation{Jiao2014}
+\citation{Vinh2010}
+\citation{Jiao2014}
+\citation{Vinh2009}
+\citation{Vinh2009}
+\@writefile{toc}{\contentsline {section}{\numberline {7}Conclusion}{6}}
+\newlabel{sec:conclusions}{{7}{6}}
+\@writefile{lof}{\contentsline {figure}{\numberline {5}{\ignorespaces \textbf  {(left)} Scatter plot showing the Adjusted Mutual Information for PhyloSub versus Aldous' Beta-Splitting. \textbf  {(center, right)} Effect of varying read depth and mutation number for the $K=5$ case. ``ABS'' refers to Aldous' beta-splitting, ``PS'' refers to PhyloSub.}}{6}}
+\newlabel{fig:scatter}{{5}{6}}
+\bibdata{../../bibtex/library}
+\bibcite{adams2010tssb}{{1}{}{{}}{{}}}
+\bibcite{Aldous1995}{{2}{}{{}}{{}}}
+\bibcite{Aparicio2013}{{3}{}{{}}{{}}}
+\bibcite{Bedard2013}{{4}{}{{}}{{}}}
+\bibcite{Duane1987}{{5}{}{{}}{{}}}
+\bibcite{Green1995}{{6}{}{{}}{{}}}
+\bibcite{Hanahan2000}{{7}{}{{}}{{}}}
+\bibcite{Hanahan2011}{{8}{}{{}}{{}}}
+\bibcite{Jiao2014}{{9}{}{{}}{{}}}
+\bibcite{Kingman82g}{{10}{}{{}}{{}}}
+\bibcite{neal2003dft}{{11}{}{{}}{{}}}
+\bibcite{Neal2003a}{{12}{}{{}}{{}}}
+\bibcite{Pritchard2000}{{13}{}{{}}{{}}}
+\bibcite{Schuh2012}{{14}{}{{}}{{}}}
+\bibcite{Shah2012}{{15}{}{{}}{{}}}
+\bibcite{steinhardt2012martingale}{{16}{}{{}}{{}}}
+\bibcite{Vinh2009}{{17}{}{{}}{{}}}
+\bibcite{Vinh2010}{{18}{}{{}}{{}}}
+\bibcite{Zhou2006}{{19}{}{{}}{{}}}
+\bibstyle{plain}
+\global\@namedef{@lastpage@}{7}
+\global\NAT@numberstrue
